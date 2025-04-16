@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section {
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.input-group {
+    margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-group input,
+.input-group select {
+    width: 100%;
+    max-width: 300px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.button-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-green {
+    background-color: #28a745;
+    color: white;
+}
+
+.button-yellow {
+    background-color: #ffc107;
+    color: black;
+}
+
+.button-purple {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-fill {
+    background-color: #007bff;
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.status {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.checkbox-group {
+    margin-bottom: 8px;
 }
